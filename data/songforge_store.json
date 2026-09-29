@@ -1,0 +1,298 @@
+{
+  "users": [
+    {
+      "id": "user_studio_1",
+      "email": "producer@songforge.studio",
+      "name": "SongForge Producer",
+      "tier": "free",
+      "credits": 4,
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "sf_demo_synthwave_01",
+      "userId": "user_studio_1",
+      "title": "Midnight Grid Runner",
+      "prompt": "Retro-futuristic analog synthesizer anthemic drive with pulsing basslines, gated drums, and neon highway vibes.",
+      "genre": "Synthwave",
+      "mood": "Euphoric",
+      "instruments": [
+        "Analog Synth",
+        "Bass",
+        "Drums",
+        "Keyboards"
+      ],
+      "vocalStyle": "Warm 80s Studio Vocal",
+      "bpm": 124,
+      "duration": 60,
+      "instrumental": false,
+      "language": "English",
+      "lyrics": "[Intro]\n(Analog arpeggios flicker as neon signs reflect in the rain)\nIgnition sequence starting...\n\n[Verse 1]\nSpeeding down the chrome-lit highway lane\nWash away the static and the midnight rain\nDigital horizon calling out my name\nNothing in the rear view will remain the same\n\n[Chorus]\nWe are the runners of the midnight grid\nChasing every dream that the daylight hid\nTurn the resonance up till the speakers ignite\nWe are alive in the ultraviolet night!\n\n[Verse 2]\nSynths in the dashboard humming in key\nBreaking through the firewall of memory\nZeroes and ones in a perfect flow\nDown to the city where the circuits glow\n\n[Bridge]\nCut the frequency, feel the bass drop low\nLet the modular oscillators blow!\nThree, two, one — lightspeed!\n\n[Chorus]\nWe are the runners of the midnight grid\nChasing every dream that the daylight hid\nTurn the resonance up till the speakers ignite\nWe are alive in the ultraviolet night!\n\n[Outro]\nUltraviolet night...\nFading into the neon dawn...\nRunners of the grid...",
+      "audioUrl": "/api/audio/sf_demo_synthwave_01_v1.wav",
+      "format": "wav",
+      "sections": [
+        {
+          "id": "sec-intro",
+          "name": "Intro",
+          "startTime": 0,
+          "endTime": 7,
+          "lyricsSnippet": "Instrumental build & atmospheric prelude",
+          "color": "#6366f1"
+        },
+        {
+          "id": "sec-verse1",
+          "name": "Verse 1",
+          "startTime": 7,
+          "endTime": 19,
+          "lyricsSnippet": "Speeding down the chrome-lit highway lane / Wash away the static and the midnight rain",
+          "color": "#06b6d4"
+        },
+        {
+          "id": "sec-chorus1",
+          "name": "Chorus",
+          "startTime": 19,
+          "endTime": 31,
+          "lyricsSnippet": "We are the runners of the midnight grid / Chasing every dream that the daylight hid",
+          "color": "#f59e0b"
+        },
+        {
+          "id": "sec-verse2",
+          "name": "Verse 2",
+          "startTime": 31,
+          "endTime": 43,
+          "lyricsSnippet": "Synths in the dashboard humming in key / Breaking through the firewall of memory",
+          "color": "#10b981"
+        },
+        {
+          "id": "sec-bridge",
+          "name": "Bridge",
+          "startTime": 43,
+          "endTime": 53,
+          "lyricsSnippet": "Cut the frequency, feel the bass drop low / Let the modular oscillators blow!",
+          "color": "#ec4899"
+        },
+        {
+          "id": "sec-outro",
+          "name": "Outro",
+          "startTime": 53,
+          "endTime": 60,
+          "lyricsSnippet": "Ultraviolet night... / Fading into the neon dawn...",
+          "color": "#8b5cf6"
+        }
+      ],
+      "versions": [
+        {
+          "id": "ver_1_sf_demo_synthwave_01",
+          "versionNumber": 1,
+          "createdAt": "2026-09-29T11:11:47.855Z",
+          "note": "Studio Master Release",
+          "audioUrl": "/api/audio/sf_demo_synthwave_01_v1.wav",
+          "duration": 60,
+          "lyrics": "[Intro]\n(Analog arpeggios flicker as neon signs reflect in the rain)\nIgnition sequence starting...\n\n[Verse 1]\nSpeeding down the chrome-lit highway lane\nWash away the static and the midnight rain\nDigital horizon calling out my name\nNothing in the rear view will remain the same\n\n[Chorus]\nWe are the runners of the midnight grid\nChasing every dream that the daylight hid\nTurn the resonance up till the speakers ignite\nWe are alive in the ultraviolet night!\n\n[Verse 2]\nSynths in the dashboard humming in key\nBreaking through the firewall of memory\nZeroes and ones in a perfect flow\nDown to the city where the circuits glow\n\n[Bridge]\nCut the frequency, feel the bass drop low\nLet the modular oscillators blow!\nThree, two, one — lightspeed!\n\n[Chorus]\nWe are the runners of the midnight grid\nChasing every dream that the daylight hid\nTurn the resonance up till the speakers ignite\nWe are alive in the ultraviolet night!\n\n[Outro]\nUltraviolet night...\nFading into the neon dawn...\nRunners of the grid..."
+        }
+      ],
+      "currentVersion": 1,
+      "isFavorite": true,
+      "tags": [
+        "Synthwave",
+        "Euphoric",
+        "124 BPM",
+        "Featured"
+      ],
+      "aiGenerated": true,
+      "modelUsed": "SongForge Lyria Engine v3.5",
+      "createdAt": "2026-09-29T11:11:47.855Z",
+      "updatedAt": "2026-09-29T11:11:47.855Z"
+    },
+    {
+      "id": "sf_demo_lofi_02",
+      "userId": "user_studio_1",
+      "title": "Rain on Copper Rooftops",
+      "prompt": "Vinyl crackle, dusty Rhodes piano chords, mellow jazz bass, and soft nocturnal vocals sipping warm tea.",
+      "genre": "Lo-Fi Chill",
+      "mood": "Chill & Peaceful",
+      "instruments": [
+        "Analog Synth",
+        "Bass",
+        "Drums",
+        "Keyboards"
+      ],
+      "vocalStyle": "Airy Breathy Soul",
+      "bpm": 84,
+      "duration": 60,
+      "instrumental": false,
+      "language": "English",
+      "lyrics": "[Intro]\n(Vinyl needle drops with warm gentle rain outside)\nMmm, yeah... cozy afternoon...\n\n[Verse 1]\nSteaming mug of tea resting on the sill\nWatching time pause, letting thoughts go still\nPages turning soft to the gentle beat\nMiles away from the crowded street\n\n[Chorus]\nRaindrops fall on copper rooftop tiles\nWashing over every sleepy mile\nJust the Rhodes and the kick and the cassette tape\nIn this quiet little sweet escape\n\n[Verse 2]\nAmber light dancing on the wooden floor\nLeft the stormy world outside the door\nPen to paper tracing out a lullaby\nUnderneath a charcoal velvet sky\n\n[Bridge]\nSoft sigh in the headphone wire...\nWarm glow from the ember fire...\n\n[Chorus]\nRaindrops fall on copper rooftop tiles\nWashing over every sleepy mile\nJust the Rhodes and the kick and the cassette tape\nIn this quiet little sweet escape\n\n[Outro]\nSweet escape...\nKeep spinning...\nGoodnight world...",
+      "audioUrl": "/api/audio/sf_demo_lofi_02_v1.wav",
+      "format": "wav",
+      "sections": [
+        {
+          "id": "sec-intro",
+          "name": "Intro",
+          "startTime": 0,
+          "endTime": 7,
+          "lyricsSnippet": "Instrumental build & atmospheric prelude",
+          "color": "#6366f1"
+        },
+        {
+          "id": "sec-verse1",
+          "name": "Verse 1",
+          "startTime": 7,
+          "endTime": 19,
+          "lyricsSnippet": "Steaming mug of tea resting on the sill / Watching time pause, letting thoughts go still",
+          "color": "#06b6d4"
+        },
+        {
+          "id": "sec-chorus1",
+          "name": "Chorus",
+          "startTime": 19,
+          "endTime": 31,
+          "lyricsSnippet": "Raindrops fall on copper rooftop tiles / Washing over every sleepy mile",
+          "color": "#f59e0b"
+        },
+        {
+          "id": "sec-verse2",
+          "name": "Verse 2",
+          "startTime": 31,
+          "endTime": 43,
+          "lyricsSnippet": "Amber light dancing on the wooden floor / Left the stormy world outside the door",
+          "color": "#10b981"
+        },
+        {
+          "id": "sec-bridge",
+          "name": "Bridge",
+          "startTime": 43,
+          "endTime": 53,
+          "lyricsSnippet": "Soft sigh in the headphone wire... / Warm glow from the ember fire...",
+          "color": "#ec4899"
+        },
+        {
+          "id": "sec-outro",
+          "name": "Outro",
+          "startTime": 53,
+          "endTime": 60,
+          "lyricsSnippet": "Sweet escape... / Keep spinning...",
+          "color": "#8b5cf6"
+        }
+      ],
+      "versions": [
+        {
+          "id": "ver_1_sf_demo_lofi_02",
+          "versionNumber": 1,
+          "createdAt": "2026-09-29T11:11:50.393Z",
+          "note": "Studio Master Release",
+          "audioUrl": "/api/audio/sf_demo_lofi_02_v1.wav",
+          "duration": 60,
+          "lyrics": "[Intro]\n(Vinyl needle drops with warm gentle rain outside)\nMmm, yeah... cozy afternoon...\n\n[Verse 1]\nSteaming mug of tea resting on the sill\nWatching time pause, letting thoughts go still\nPages turning soft to the gentle beat\nMiles away from the crowded street\n\n[Chorus]\nRaindrops fall on copper rooftop tiles\nWashing over every sleepy mile\nJust the Rhodes and the kick and the cassette tape\nIn this quiet little sweet escape\n\n[Verse 2]\nAmber light dancing on the wooden floor\nLeft the stormy world outside the door\nPen to paper tracing out a lullaby\nUnderneath a charcoal velvet sky\n\n[Bridge]\nSoft sigh in the headphone wire...\nWarm glow from the ember fire...\n\n[Chorus]\nRaindrops fall on copper rooftop tiles\nWashing over every sleepy mile\nJust the Rhodes and the kick and the cassette tape\nIn this quiet little sweet escape\n\n[Outro]\nSweet escape...\nKeep spinning...\nGoodnight world..."
+        }
+      ],
+      "currentVersion": 1,
+      "isFavorite": true,
+      "tags": [
+        "Lo-Fi Chill",
+        "Chill & Peaceful",
+        "84 BPM",
+        "Featured"
+      ],
+      "aiGenerated": true,
+      "modelUsed": "SongForge Lyria Engine v3.5",
+      "createdAt": "2026-09-29T11:11:50.393Z",
+      "updatedAt": "2026-09-29T11:11:50.393Z"
+    },
+    {
+      "id": "sf_trk_1790680321548_15dca7ef",
+      "userId": "user_studio_1",
+      "title": "Synthwave in Euphoric",
+      "prompt": "Cruising down neon city boulevard with analog synths and punchy drums",
+      "genre": "Synthwave",
+      "mood": "Euphoric",
+      "instruments": [
+        "Synth",
+        "Bass",
+        "Drums",
+        "Keyboards"
+      ],
+      "vocalStyle": "Modern Studio Vocal",
+      "bpm": 128,
+      "duration": 30,
+      "instrumental": false,
+      "language": "English",
+      "lyrics": "[Intro]\n(Atmospheric synths swell as the bassline locks into the pulse)\nYeah, we're forging sounds in the dark tonight...\n\n[Verse 1]\nNeon reflections on the wet asphalt streets\nHeartbeat syncing with the low-end beats\nChasing the horizon where the signal turns clear\nLeaving the echoes of every old fear\n\n[Chorus]\nTake me higher through the frequency haze\nBurning alive in the neon daze\nEvery note we forge is a flame we keep\nWaking the dreamers out of their sleep!\n\n[Verse 2]\nFingers on the fader as the melody climbs\nWriting tomorrow in the rhythm of the times\nStatic in the wire, but the voltage is strong\nThis is where the forgotten belong\n\n[Bridge]\nBreak it down to the kick and the wire\nLet the harmony lift like a holy fire\nCan you feel the crescendo rising high?\nWatch the soundwaves fracture the sky!\n\n[Chorus]\nTake me higher through the frequency haze\nBurning alive in the neon daze\nEvery note we forge is a flame we keep\nWaking the dreamers out of their sleep!\n\n[Outro]\nFade into the starlight...\nReverb in the night...\nForged forever...",
+      "audioUrl": "/api/audio/sf_trk_1790680321548_15dca7ef_v1.wav",
+      "format": "wav",
+      "sections": [
+        {
+          "id": "sec-intro",
+          "name": "Intro",
+          "startTime": 0,
+          "endTime": 4,
+          "lyricsSnippet": "Instrumental build & atmospheric prelude",
+          "color": "#6366f1"
+        },
+        {
+          "id": "sec-verse1",
+          "name": "Verse 1",
+          "startTime": 4,
+          "endTime": 10,
+          "lyricsSnippet": "Neon reflections on the wet asphalt streets / Heartbeat syncing with the low-end beats",
+          "color": "#06b6d4"
+        },
+        {
+          "id": "sec-chorus1",
+          "name": "Chorus",
+          "startTime": 10,
+          "endTime": 16,
+          "lyricsSnippet": "Take me higher through the frequency haze / Burning alive in the neon daze",
+          "color": "#f59e0b"
+        },
+        {
+          "id": "sec-verse2",
+          "name": "Verse 2",
+          "startTime": 16,
+          "endTime": 22,
+          "lyricsSnippet": "Fingers on the fader as the melody climbs / Writing tomorrow in the rhythm of the times",
+          "color": "#10b981"
+        },
+        {
+          "id": "sec-bridge",
+          "name": "Bridge",
+          "startTime": 22,
+          "endTime": 26,
+          "lyricsSnippet": "Break it down to the kick and the wire / Let the harmony lift like a holy fire",
+          "color": "#ec4899"
+        },
+        {
+          "id": "sec-outro",
+          "name": "Outro",
+          "startTime": 26,
+          "endTime": 30,
+          "lyricsSnippet": "Fade into the starlight... / Reverb in the night...",
+          "color": "#8b5cf6"
+        }
+      ],
+      "versions": [
+        {
+          "id": "ver_1_1790680322846",
+          "versionNumber": 1,
+          "createdAt": "2026-09-29T11:12:02.846Z",
+          "note": "Initial Full Track Generation",
+          "audioUrl": "/api/audio/sf_trk_1790680321548_15dca7ef_v1.wav",
+          "duration": 30,
+          "lyrics": "[Intro]\n(Atmospheric synths swell as the bassline locks into the pulse)\nYeah, we're forging sounds in the dark tonight...\n\n[Verse 1]\nNeon reflections on the wet asphalt streets\nHeartbeat syncing with the low-end beats\nChasing the horizon where the signal turns clear\nLeaving the echoes of every old fear\n\n[Chorus]\nTake me higher through the frequency haze\nBurning alive in the neon daze\nEvery note we forge is a flame we keep\nWaking the dreamers out of their sleep!\n\n[Verse 2]\nFingers on the fader as the melody climbs\nWriting tomorrow in the rhythm of the times\nStatic in the wire, but the voltage is strong\nThis is where the forgotten belong\n\n[Bridge]\nBreak it down to the kick and the wire\nLet the harmony lift like a holy fire\nCan you feel the crescendo rising high?\nWatch the soundwaves fracture the sky!\n\n[Chorus]\nTake me higher through the frequency haze\nBurning alive in the neon daze\nEvery note we forge is a flame we keep\nWaking the dreamers out of their sleep!\n\n[Outro]\nFade into the starlight...\nReverb in the night...\nForged forever..."
+        }
+      ],
+      "currentVersion": 1,
+      "isFavorite": false,
+      "tags": [
+        "Synthwave",
+        "Euphoric",
+        "128 BPM"
+      ],
+      "aiGenerated": true,
+      "modelUsed": "SongForge Audio Synth v3.5 (Mock Engine)",
+      "createdAt": "2026-09-29T11:12:02.846Z",
+      "updatedAt": "2026-09-29T11:12:02.846Z"
+    }
+  ]
+}

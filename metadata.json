@@ -1,0 +1,7 @@
+{
+  "name": "SongForge - AI Music Studio",
+  "description": "Create studio-quality, full-length music tracks with vocals, lyrics, and stems powered by Gemini Lyria.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
